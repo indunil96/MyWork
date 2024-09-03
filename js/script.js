@@ -12,3 +12,7 @@ function myFunction() {
       }
     }
   }
+
+  $(window).on('load',function(){
+    $('#loadingscreen').fadeOut('slow');
+  });
